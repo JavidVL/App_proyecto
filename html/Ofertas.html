@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de ofertas</title>
+    <style>
+         @font-face {
+            font-family: 'Raleway-Bold';
+            src: url('resources/fonts/Raleway-Bold.ttf') format('truetype');
+            font-style: normal;
+            font-weight: normal;
+            }
+        @font-face {
+            font-family: 'Raleway-Regular';
+            src: url('resources/fonts/Raleway-Regular.ttf') format('truetype');
+            font-style: normal;
+            font-weight: normal;
+        }
+        body {
+            background-color: #3c3c3c;
+        }
+        #titulo_2 {
+            margin-left: 5%;
+            font-family: 'Raleway-Bold';
+            font-weight: normal;
+            font-style: normal;
+            color: white;
+        }
+        form {
+            color: white;
+            font-family: 'Raleway-Regular';
+            font-weight: normal;
+            font-style: normal;
+        }
+        section {
+            margin: 5%;
+        }
+        #button_enviar_2 {
+            box-sizing: border-box;
+            background-color: blueviolet;
+            color: white;
+            width: 60;
+            font-family: 'Raleway-Regular';
+        }
+        input {
+            font-family: 'Raleway-Regular';
+            margin-left: 3%;
+            width: max-content;
+            
+        }
+
+    </style>
+</head>
+<body>
+    <h1 id="titulo_2">Registrar oferta</h1>
+    <hr>
+    <form action="" method="post">
+        <section>
+            <h2>Información Empresa</h2>
+            <br>        
+            <label for="Puesto solicitado">Ingrese puesto que busca</label>
+            <input type="Puesto" id="Puesto" name="Puesto_solicitado" required>
+            <br>
+            <br>
+            <label for="nombre_empresa">Empresa: </label>
+            <label for="nombre_empresa">*Aqui se guarda el nombre de la empresa que inició sesión* </label>
+            <br>
+            <br>
+            <label for="Desc_oferta">Descripción de la oferta</label>
+            <input type="Desc_oferta" id="Desc_oferta" name="Desc_oferta" required>
+            <br>
+            <br>
+            <label for="Salario">Salario ofertado: </label>
+            <input type="Salario" id="Salario" name="Salario" required>
+            <br>
+            <br>
+            <label for="Horario">Horario requerido: </label>
+            <input type="Horario" id="Horario" name="Horario" required>
+            <br>
+            <br>
+            <label for="Adicional">Requerimientos adicionales: </label>
+            <input type="Adicional" id="Adicional" name="Adicional" required>
+            <br>
+            <br>
+        </section>
+    <hr>
+    </form>
+</body>
+</html>
