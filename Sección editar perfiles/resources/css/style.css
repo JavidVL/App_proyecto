@@ -1,0 +1,113 @@
+@font-face {
+    font-family: 'Raleway-Bold';
+    src: url('../fonts/Raleway-Bold.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+    }
+@font-face {
+    font-family: 'Raleway-Regular';
+    src: url('../fonts/Raleway-Regular.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+
+.titulo1{
+    font-weight: 900;
+}
+
+body{
+    font-family: 'Raleway-Regular';
+    margin: 0;
+}
+
+.container{
+    width: 85%;
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+.header{
+    background: #313233;
+    padding: 3rem 0;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+}
+
+.boton_inicio{
+    background-color: #ed098a;
+    color: white;
+    padding: 10px  30px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+.boton_inicio:hover{
+    background-color: #19a3d1;
+}
+
+.footer{
+background: #313233;
+padding: 2rem 0;
+text-align: center;
+color: white;
+margin-top: 3rem;
+bottom: 0;
+width: 100%;
+
+}
+
+.main{
+    padding-top: 8.5rem;
+}
+
+.name_empresa{
+    font-family: Verdana;
+    font-weight: 800;
+    font-size: 35px;
+    text-decoration: none;
+    color: #19a3d1;
+}
+
+.logo_empresa{
+    position: fixed;
+    left: 4rem;
+    top: 1.54rem;
+}
+
+.name_empresa{
+    position: fixed;
+    left: 8rem;
+    top: 1.4rem;
+}
+
+.buscar{
+    position: fixed;
+    left: 25rem;
+    top: 1.7rem;
+}
+
+.inicio{
+    position: fixed;
+    right: 10rem;
+    top: 1.7rem;
+}
+
+.barra_busqueda{
+    border-radius: 30px;
+    width: 35%;
+    height: 8%;
+    border: 1px solid black;
+    outline: none;
+    position: fixed;
+    right: 50rem;
+    left: 33rem;
+    top: 1.3rem;
+}
+
+.respuesta{
+    border-radius: 6px;
+    border: 1px solid black;
+    width: 45%;
+    height: 30px;
+}
