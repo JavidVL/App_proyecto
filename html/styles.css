@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+}
+@font-face {
+    font-family: Nunito;
+    src: url("/resources/fonts/Nunito/Nunito-SemiBold.ttf");
+    font-weight: bolder;
+}
+@font-face {
+    font-family: Nunito-Bold;
+    src: url("/resources/fonts/Nunito/Nunito-Bold.ttf");
+    font-weight: bold;
+}
+@font-face {
+    font-family: Nunito-Black;
+    src: url("/resources/fonts/Nunito/Nunito-Black.ttf");
+}
+@font-face {
+    font-family: Nunito-Regular;
+    src: url("/resources/fonts/Nunito/Nunito-Regular.ttf");
+    font-weight: normal;
+}
+.logo {
+    height: 30px;
+    width: auto;
+}
+#tarjeta-perfil {
+    background: var(--color-alternativo-2-hover);
+    border-top-left-radius:  5px;
+    border-bottom-left-radius: 5px;
+    color: var(--color-alternativo-2);
+    box-shadow: 0px 0 30px 0px rgba(0, 0, 0, 0.801); 
+    display: flex;
+    max-height: 60px;
+}
+#tarjeta-perfil:hover {
+    background: var(--color-principal);
+    color: var(--fondo-claro);
+}
+.margen-10 {
+    margin: 10px 10px;
+}
