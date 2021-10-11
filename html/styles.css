@@ -41,3 +41,37 @@
 .margen-10 {
     margin: 10px 10px;
 }
+.titulo {
+    text-align: center;
+    font-size: 2rem;
+}
+@media screen and () {
+    
+}
+.input-login {
+    max-width: 20rem !important;
+}
+.tarjeta-login {
+    display: flex;
+    margin: 10rem !important;
+    text-align: center;
+    flex-wrap: wrap;
+}
+@media screen and (max-width: 990px) {
+    .input-login {
+        max-width: 90% !important;
+    }
+    .tarjeta-login {
+        display: flex;
+        margin: 10rem !important;
+        text-align: center;
+        flex-wrap: wrap;
+    }
+}
+div form div {
+    text-align: center;
+}
+
+div form div a:hover {
+    text-decoration: underline;
+}
